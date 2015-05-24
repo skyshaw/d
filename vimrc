@@ -86,3 +86,10 @@ noremap <c-j> <c-w>j
 noremap <c-k> <c-w>k
 noremap <c-l> <c-w>l
 noremap <c-h> <c-w>h
+
+"===========================================================================
+" Plugin Setting Begin
+let g:pymode_lint_checkers = ['pyflakes', 'pylint', 'mccabe']
+let g:pymode_folding = 0
+" Plugin Setting End
+"===========================================================================
